@@ -327,7 +327,9 @@ const App: React.FC = () => {
               <div className="bento-card animate-on-scroll delay-2">
                 <div className="bento-icon">🎓</div>
                 <h3>{t.about.education || 'Education'}</h3>
-                <p>{t.about.educationText || "M.Sc. Computer Science — University of Passau, Germany"}</p>
+                {t.about.educationList.map((line, index) => (
+                  <p key={index}>{line}</p>
+                ))}
               </div>
 
               <div className="bento-card animate-on-scroll delay-3">
