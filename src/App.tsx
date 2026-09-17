@@ -324,7 +324,7 @@ const App: React.FC = () => {
                     <div className="stat-label">{t.about.stats?.certs || 'Certifications'}</div>
                   </div>
                   <div className="stat-item">
-                    <div className="stat-number">1</div>
+                    <div className="stat-number">2</div>
                     <div className="stat-label">{t.about.stats?.projects || 'Projects'}</div>
                   </div>
                 </div>
@@ -439,6 +439,26 @@ const App: React.FC = () => {
                   <span className="project-tag">Python</span>
                   <span className="project-tag">Real-time</span>
                 </div>
+              </div>
+
+              <div className="project-card animate-on-scroll delay-2">
+                <div className="project-number">02</div>
+                <h3>{t.projects.rasta.title}</h3>
+                <p>{t.projects.rasta.desc}</p>
+                <div className="project-tags">
+                  <span className="project-tag">Rust</span>
+                  <span className="project-tag">no_std</span>
+                  <span className="project-tag">DIN VDE 0831-200</span>
+                  <span className="project-tag">Interop Testing</span>
+                </div>
+                <a
+                  href="https://github.com/itsmuba/rust-secure-railway-protocol"
+                  target="_blank"
+                  rel="noreferrer"
+                  className="project-link"
+                >
+                  {t.projects.rasta.link} →
+                </a>
               </div>
             </div>
 
