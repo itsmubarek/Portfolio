@@ -21,8 +21,9 @@ export const translations = {
     },
     about: {
       title: "About Me",
-      heading: "Who I Am",
+      heading: "Overview",
       text: "I am a passionate Cloud Engineer and Network Administrator currently pursuing my Master's in Computer Science at the University of Passau. With a strong foundation in networking and infrastructure security, I specialize in architecting scalable and secure cloud environments on Azure and AWS.",
+      roleTags: ["Cloud Engineer", "Network Administrator", "Security"],
       education: "Education",
       educationList: [
         "M.Sc. Computer Science — University of Passau, Germany (2025 – Present)",
@@ -37,13 +38,13 @@ export const translations = {
       },
     },
     skills: {
-      title: "Technical Skills",
-      desc: "A comprehensive toolkit spanning networking, cloud architecture, and software engineering.",
-      categories: {
-        networking: "Networking & Security",
-        cloud: "Cloud & Infrastructure",
-        programming: "Programming & Tools",
-      },
+      title: "Technologies",
+      desc: "These are the technologies I've worked with across networking, cloud infrastructure, and software engineering.",
+      techList: [
+        "Microsoft Azure", "AWS", "Virtualization", "Azure Monitor", "Linux Admin", "Docker",
+        "Network Design", "TCP/IP", "VLANs", "Cisco IOS", "IDS/IPS", "Firewalls", "DNS / DHCP",
+        "Python", "JavaScript", "Node.js", "Bash", "Git", "CI/CD",
+      ],
     },
     experience: {
       title: "Work Experience",
@@ -72,6 +73,8 @@ export const translations = {
         title: "VDAS — Violence Detection",
         desc: "Real-time violence detection system using Convolutional Neural Networks and action classification models, built with Python and OpenCV.",
       },
+      moreText: "More projects can be found on my",
+      moreLink: "GitHub",
     },
     contact: {
       title: "Get In Touch",
@@ -101,8 +104,9 @@ export const translations = {
     },
     about: {
       title: "Über mich",
-      heading: "Wer ich bin",
+      heading: "Überblick",
       text: "Ich bin ein leidenschaftlicher Cloud Engineer und Netzwerkadministrator, der derzeit seinen Master in Informatik an der Universität Passau absolviert. Mit einer soliden Grundlage in Netzwerk- und Infrastruktursicherheit spezialisiere ich mich auf die Architektur skalierbarer und sicherer Cloud-Umgebungen auf Azure und AWS.",
+      roleTags: ["Cloud Engineer", "Netzwerkadministrator", "Sicherheit"],
       education: "Ausbildung",
       educationList: [
         "M.Sc. Informatik — Universität Passau, Deutschland (2025 – Heute)",
@@ -117,13 +121,13 @@ export const translations = {
       },
     },
     skills: {
-      title: "Technische Fähigkeiten",
-      desc: "Ein umfassendes Toolkit für Netzwerk, Cloud-Architektur und Software-Engineering.",
-      categories: {
-        networking: "Netzwerk & Sicherheit",
-        cloud: "Cloud & Infrastruktur",
-        programming: "Programmierung & Tools",
-      },
+      title: "Technologien",
+      desc: "Das sind die Technologien, mit denen ich in den Bereichen Netzwerk, Cloud-Infrastruktur und Softwareentwicklung gearbeitet habe.",
+      techList: [
+        "Microsoft Azure", "AWS", "Virtualisierung", "Azure Monitor", "Linux Administration", "Docker",
+        "Netzwerkdesign", "TCP/IP", "VLANs", "Cisco IOS", "IDS/IPS", "Firewalls", "DNS / DHCP",
+        "Python", "JavaScript", "Node.js", "Bash", "Git", "CI/CD",
+      ],
     },
     experience: {
       title: "Berufserfahrung",
@@ -152,6 +156,8 @@ export const translations = {
         title: "VDAS — Gewalt-Erkennung",
         desc: "Echtzeit-Gewalterkennungssystem unter Verwendung von CNNs und Aktionsklassifizierungsmodellen, erstellt mit Python und OpenCV.",
       },
+      moreText: "Weitere Projekte findest du auf meinem",
+      moreLink: "GitHub",
     },
     contact: {
       title: "Kontakt aufnehmen",
