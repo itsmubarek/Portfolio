@@ -511,7 +511,7 @@ const App: React.FC = () => {
                   LinkedIn
                 </a>
                 <a
-                  href="https://github.com/mubarek-yeshaw"
+                  href="https://github.com/itsmubarek"
                   target="_blank"
                   rel="noreferrer"
                   className="social-link"
