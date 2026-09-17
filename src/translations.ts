@@ -69,6 +69,11 @@ export const translations = {
         title: "VDAS — Violence Detection",
         desc: "Real-time violence detection system using Convolutional Neural Networks and action classification models, built with Python and OpenCV.",
       },
+      rasta: {
+        title: "RaSTA Protocol Engine (Rust)",
+        desc: "Co-developed a no_std Rust implementation of the RaSTA railway safety protocol as part of a 3-person Security Engineering Lab team at the University of Passau — covering standards analysis (DIN VDE V 0831-200), a constant-memory protocol core, and a controlled interoperability test campaign that achieved 5 successful Rust-to-SBB Ping/Pong rounds.",
+        link: "View Code",
+      },
       moreText: "More projects can be found on my",
       moreLink: "GitHub",
     },
@@ -147,6 +152,11 @@ export const translations = {
       vdas: {
         title: "VDAS — Gewalt-Erkennung",
         desc: "Echtzeit-Gewalterkennungssystem unter Verwendung von CNNs und Aktionsklassifizierungsmodellen, erstellt mit Python und OpenCV.",
+      },
+      rasta: {
+        title: "RaSTA Protocol Engine (Rust)",
+        desc: "Mitentwicklung einer no_std-Rust-Implementierung des RaSTA-Eisenbahnsicherheitsprotokolls im Rahmen eines 3-köpfigen Teams im Security Engineering Lab der Universität Passau — von der Normenanalyse (DIN VDE V 0831-200) über einen speicherkonstanten Protokollkern bis zu einer kontrollierten Interoperabilitätstestreihe mit 5 erfolgreichen Rust-zu-SBB-Ping-Pong-Runden.",
+        link: "Code ansehen",
       },
       moreText: "Weitere Projekte findest du auf meinem",
       moreLink: "GitHub",
