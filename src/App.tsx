@@ -308,6 +308,12 @@ const App: React.FC = () => {
                 <h3>{t.about.title}</h3>
                 <p>{t.about.text}</p>
 
+                <div className="role-tags">
+                  {t.about.roleTags.map((role) => (
+                    <span className="role-tag" key={role}>{role}</span>
+                  ))}
+                </div>
+
                 <div className="about-stats">
                   <div className="stat-item">
                     <div className="stat-number">2+</div>
@@ -358,46 +364,10 @@ const App: React.FC = () => {
               </p>
             </div>
 
-            <div className="skills-grid">
-              <div className="skill-card animate-on-scroll delay-1">
-                <div className="skill-card-icon networking">🛡️</div>
-                <h3>{t.skills.categories.networking}</h3>
-                <div className="skill-tags">
-                  <span className="skill-tag">Network Design</span>
-                  <span className="skill-tag">TCP/IP</span>
-                  <span className="skill-tag">VLANs</span>
-                  <span className="skill-tag">Cisco IOS</span>
-                  <span className="skill-tag">IDS/IPS</span>
-                  <span className="skill-tag">Firewalls</span>
-                  <span className="skill-tag">DNS / DHCP</span>
-                </div>
-              </div>
-
-              <div className="skill-card animate-on-scroll delay-2">
-                <div className="skill-card-icon cloud">☁️</div>
-                <h3>{t.skills.categories.cloud}</h3>
-                <div className="skill-tags">
-                  <span className="skill-tag">Microsoft Azure</span>
-                  <span className="skill-tag">AWS</span>
-                  <span className="skill-tag">Virtualization</span>
-                  <span className="skill-tag">Azure Monitor</span>
-                  <span className="skill-tag">Linux Admin</span>
-                  <span className="skill-tag">Docker</span>
-                </div>
-              </div>
-
-              <div className="skill-card animate-on-scroll delay-3">
-                <div className="skill-card-icon programming">⚡</div>
-                <h3>{t.skills.categories.programming}</h3>
-                <div className="skill-tags">
-                  <span className="skill-tag">Python</span>
-                  <span className="skill-tag">JavaScript</span>
-                  <span className="skill-tag">Node.js</span>
-                  <span className="skill-tag">Bash</span>
-                  <span className="skill-tag">Git</span>
-                  <span className="skill-tag">CI/CD</span>
-                </div>
-              </div>
+            <div className="tech-cloud animate-on-scroll delay-1">
+              {t.skills.techList.map((tech) => (
+                <span className="skill-tag" key={tech}>{tech}</span>
+              ))}
             </div>
           </div>
         </div>
@@ -483,6 +453,13 @@ const App: React.FC = () => {
                 </div>
               </div>
             </div>
+
+            <p className="projects-more animate-on-scroll">
+              {t.projects.moreText}{' '}
+              <a href="https://github.com/itsmubarek" target="_blank" rel="noreferrer">
+                {t.projects.moreLink} →
+              </a>
+            </p>
           </div>
         </div>
       </section>
