@@ -24,7 +24,10 @@ export const translations = {
       heading: "Who I Am",
       text: "I am a passionate Cloud Engineer and Network Administrator currently pursuing my Master's in Computer Science at the University of Passau. With a strong foundation in networking and infrastructure security, I specialize in architecting scalable and secure cloud environments on Azure and AWS.",
       education: "Education",
-      educationText: "M.Sc. Computer Science — University of Passau, Germany",
+      educationList: [
+        "M.Sc. Computer Science — University of Passau, Germany (2025 – Present)",
+        "B.Sc. Computer Science and Engineering — Adama Science and Technology University, Ethiopia (2025)",
+      ],
       location: "Location",
       locationText: "Based in Passau, Germany — open to remote & on-site roles across the EU.",
       stats: {
@@ -101,7 +104,10 @@ export const translations = {
       heading: "Wer ich bin",
       text: "Ich bin ein leidenschaftlicher Cloud Engineer und Netzwerkadministrator, der derzeit seinen Master in Informatik an der Universität Passau absolviert. Mit einer soliden Grundlage in Netzwerk- und Infrastruktursicherheit spezialisiere ich mich auf die Architektur skalierbarer und sicherer Cloud-Umgebungen auf Azure und AWS.",
       education: "Ausbildung",
-      educationText: "M.Sc. Informatik — Universität Passau, Deutschland",
+      educationList: [
+        "M.Sc. Informatik — Universität Passau, Deutschland (2025 – Heute)",
+        "B.Sc. Computer Science and Engineering — Adama Science and Technology University, Äthiopien (2025)",
+      ],
       location: "Standort",
       locationText: "Wohnhaft in Passau, Deutschland — offen für Remote- und Vor-Ort-Rollen in der EU.",
       stats: {
