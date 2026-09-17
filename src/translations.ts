@@ -17,6 +17,7 @@ export const translations = {
         ccna: "CCNA",
       },
       cta: "View Projects",
+      resumeCta: "Download CV",
     },
     about: {
       title: "About Me",
@@ -88,6 +89,7 @@ export const translations = {
         ccna: "CCNA",
       },
       cta: "Projekte ansehen",
+      resumeCta: "Lebenslauf herunterladen",
     },
     about: {
       title: "Über mich",
