@@ -46,14 +46,6 @@ export const translations = {
       title: "Work Experience",
       entries: [
         {
-          role: "M.Sc. Computer Science Student",
-          company: "University of Passau, Germany",
-          date: "10/2025 – Present",
-          items: [
-            "Pursuing a Master's degree in Computer Science, building on a networking and cloud infrastructure background.",
-          ],
-        },
-        {
           role: "Junior Network Administrator",
           company: "ALKAN CIT | Addis Ababa, Ethiopia",
           date: "07/2022 – 11/2024",
@@ -130,14 +122,6 @@ export const translations = {
     experience: {
       title: "Berufserfahrung",
       entries: [
-        {
-          role: "M.Sc.-Student Informatik",
-          company: "Universität Passau, Deutschland",
-          date: "10/2025 – Heute",
-          items: [
-            "Absolviert einen Master in Informatik, aufbauend auf Erfahrung in Netzwerktechnik und Cloud-Infrastruktur.",
-          ],
-        },
         {
           role: "Junior Netzwerkadministrator",
           company: "ALKAN CIT | Addis Abeba, Äthiopien",
