@@ -413,27 +413,29 @@ const App: React.FC = () => {
               <h2 className="section-title">{t.experience.title}</h2>
             </div>
 
-            <div className="experience-card animate-on-scroll delay-1">
-              <div className="exp-header">
-                <div>
-                  <div className="exp-role">{t.experience.role}</div>
-                  <div className="exp-company">
-                    <span>🏢</span>
-                    {t.experience.company}
+            {t.experience.entries.map((entry, i) => (
+              <div className={`experience-card animate-on-scroll delay-${Math.min(i + 1, 3)}`} key={entry.role}>
+                <div className="exp-header">
+                  <div>
+                    <div className="exp-role">{entry.role}</div>
+                    <div className="exp-company">
+                      <span>🏢</span>
+                      {entry.company}
+                    </div>
+                  </div>
+                  <div className="exp-date">
+                    <span>📅</span>
+                    {entry.date}
                   </div>
                 </div>
-                <div className="exp-date">
-                  <span>📅</span>
-                  07/2022 – 11/2024
-                </div>
-              </div>
 
-              <ul className="exp-list">
-                {t.experience.items.map((item, index) => (
-                  <li key={index}>{item}</li>
-                ))}
-              </ul>
-            </div>
+                <ul className="exp-list">
+                  {entry.items.map((item, index) => (
+                    <li key={index}>{item}</li>
+                  ))}
+                </ul>
+              </div>
+            ))}
           </div>
         </div>
       </section>

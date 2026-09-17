@@ -44,13 +44,36 @@ export const translations = {
     },
     experience: {
       title: "Work Experience",
-      role: "Junior Network Administrator",
-      company: "ALKAN CIT | Addis Ababa, Ethiopia",
-      items: [
-        "Managed and optimized the company's network infrastructure, performing regular maintenance and troubleshooting.",
-        "Ensured network security by implementing protocols, monitoring traffic, and assigning detailed permissions.",
-        "Configured routers & switches, resolving TCP/IP, DNS, and DHCP issues.",
-        "Trained staff on network best practices to improve overall team efficiency.",
+      entries: [
+        {
+          role: "M.Sc. Computer Science Student",
+          company: "University of Passau, Germany",
+          date: "10/2025 – Present",
+          items: [
+            "Pursuing a Master's degree in Computer Science, building on a networking and cloud infrastructure background.",
+          ],
+        },
+        {
+          role: "Master's Application & Relocation Preparation",
+          company: "Self-directed",
+          date: "11/2024 – 10/2025",
+          items: [
+            "Prepared for and passed IELTS to meet English-language admission requirements.",
+            "Compiled academic transcripts, recommendation letters, and application documents for Master's programs.",
+            "Managed visa application and relocation logistics to begin studies in Germany.",
+          ],
+        },
+        {
+          role: "Junior Network Administrator",
+          company: "ALKAN CIT | Addis Ababa, Ethiopia",
+          date: "07/2022 – 11/2024",
+          items: [
+            "Managed and optimized the company's network infrastructure, performing regular maintenance and troubleshooting.",
+            "Ensured network security by implementing protocols, monitoring traffic, and assigning detailed permissions.",
+            "Configured routers & switches, resolving TCP/IP, DNS, and DHCP issues.",
+            "Trained staff on network best practices to improve overall team efficiency.",
+          ],
+        },
       ],
     },
     projects: {
@@ -116,13 +139,36 @@ export const translations = {
     },
     experience: {
       title: "Berufserfahrung",
-      role: "Junior Netzwerkadministrator",
-      company: "ALKAN CIT | Addis Abeba, Äthiopien",
-      items: [
-        "Verwaltung und Optimierung der Netzwerkinfrastruktur des Unternehmens, Durchführung regelmäßiger Wartung und Fehlerbehebung.",
-        "Gewährleistung der Netzwerksicherheit durch Implementierung von Protokollen, Verkehrsüberwachung und Zuweisung detaillierter Berechtigungen.",
-        "Konfiguration von Routern und Switches, Behebung von TCP/IP-, DNS- und DHCP-Problemen.",
-        "Schulung des Personals in Best Practices für Netzwerke zur Verbesserung der Teameffizienz.",
+      entries: [
+        {
+          role: "M.Sc.-Student Informatik",
+          company: "Universität Passau, Deutschland",
+          date: "10/2025 – Heute",
+          items: [
+            "Absolviert einen Master in Informatik, aufbauend auf Erfahrung in Netzwerktechnik und Cloud-Infrastruktur.",
+          ],
+        },
+        {
+          role: "Vorbereitung auf Masterbewerbung & Umzug",
+          company: "Selbstständig",
+          date: "11/2024 – 10/2025",
+          items: [
+            "Vorbereitung und erfolgreicher Abschluss des IELTS zur Erfüllung der Sprachanforderungen.",
+            "Zusammenstellung von akademischen Zeugnissen, Empfehlungsschreiben und Bewerbungsunterlagen für Masterprogramme.",
+            "Organisation von Visumantrag und Umzugslogistik für den Studienbeginn in Deutschland.",
+          ],
+        },
+        {
+          role: "Junior Netzwerkadministrator",
+          company: "ALKAN CIT | Addis Abeba, Äthiopien",
+          date: "07/2022 – 11/2024",
+          items: [
+            "Verwaltung und Optimierung der Netzwerkinfrastruktur des Unternehmens, Durchführung regelmäßiger Wartung und Fehlerbehebung.",
+            "Gewährleistung der Netzwerksicherheit durch Implementierung von Protokollen, Verkehrsüberwachung und Zuweisung detaillierter Berechtigungen.",
+            "Konfiguration von Routern und Switches, Behebung von TCP/IP-, DNS- und DHCP-Problemen.",
+            "Schulung des Personals in Best Practices für Netzwerke zur Verbesserung der Teameffizienz.",
+          ],
+        },
       ],
     },
     projects: {
