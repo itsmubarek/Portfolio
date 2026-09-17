@@ -324,7 +324,7 @@ const App: React.FC = () => {
                     <div className="stat-label">{t.about.stats?.certs || 'Certifications'}</div>
                   </div>
                   <div className="stat-item">
-                    <div className="stat-number">2</div>
+                    <div className="stat-number">1</div>
                     <div className="stat-label">{t.about.stats?.projects || 'Projects'}</div>
                   </div>
                 </div>
@@ -431,18 +431,6 @@ const App: React.FC = () => {
             <div className="projects-grid">
               <div className="project-card animate-on-scroll delay-1">
                 <div className="project-number">01</div>
-                <h3>{t.projects.azure.title}</h3>
-                <p>{t.projects.azure.desc}</p>
-                <div className="project-tags">
-                  <span className="project-tag">Azure</span>
-                  <span className="project-tag">VNets</span>
-                  <span className="project-tag">NSGs</span>
-                  <span className="project-tag">Zero Trust</span>
-                </div>
-              </div>
-
-              <div className="project-card animate-on-scroll delay-2">
-                <div className="project-number">02</div>
                 <h3>{t.projects.vdas.title}</h3>
                 <p>{t.projects.vdas.desc}</p>
                 <div className="project-tags">

@@ -65,10 +65,6 @@ export const translations = {
     projects: {
       title: "Featured Projects",
       desc: "Hands-on projects showcasing cloud architecture and AI capabilities.",
-      azure: {
-        title: "Azure Cloud Infrastructure",
-        desc: "Architected a multi-region environment using VNets and NSGs for Zero-Trust access control, with automated monitoring via Azure Monitor.",
-      },
       vdas: {
         title: "VDAS — Violence Detection",
         desc: "Real-time violence detection system using Convolutional Neural Networks and action classification models, built with Python and OpenCV.",
@@ -148,10 +144,6 @@ export const translations = {
     projects: {
       title: "Ausgewählte Projekte",
       desc: "Praxisprojekte, die Cloud-Architektur und KI-Fähigkeiten demonstrieren.",
-      azure: {
-        title: "Azure Cloud-Infrastruktur",
-        desc: "Architektur einer Multi-Region-Umgebung mit VNets und NSGs für Zero-Trust-Zugriffskontrolle, mit automatisiertem Monitoring über Azure Monitor.",
-      },
       vdas: {
         title: "VDAS — Gewalt-Erkennung",
         desc: "Echtzeit-Gewalterkennungssystem unter Verwendung von CNNs und Aktionsklassifizierungsmodellen, erstellt mit Python und OpenCV.",
