@@ -272,6 +272,14 @@ const App: React.FC = () => {
             <a href="#contact" className="btn-outline" id="hero-cta-contact">
               {t.nav.contact}
             </a>
+            <a
+              href={`${import.meta.env.BASE_URL}Mubarek_Yeshaw_Tahir_CV.pdf`}
+              download
+              className="btn-outline"
+              id="hero-cta-cv"
+            >
+              {t.hero.resumeCta || 'Download CV'}
+            </a>
           </div>
         </div>
 
