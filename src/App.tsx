@@ -306,7 +306,7 @@ const App: React.FC = () => {
                     <div className="stat-label">{t.about.stats?.years || 'Years Exp.'}</div>
                   </div>
                   <div className="stat-item">
-                    <div className="stat-number">3</div>
+                    <div className="stat-number">2</div>
                     <div className="stat-label">{t.about.stats?.certs || 'Certifications'}</div>
                   </div>
                   <div className="stat-item">
