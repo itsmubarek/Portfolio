@@ -54,16 +54,6 @@ export const translations = {
           ],
         },
         {
-          role: "Master's Application & Relocation Preparation",
-          company: "Self-directed",
-          date: "11/2024 – 10/2025",
-          items: [
-            "Prepared for and passed IELTS to meet English-language admission requirements.",
-            "Compiled academic transcripts, recommendation letters, and application documents for Master's programs.",
-            "Managed visa application and relocation logistics to begin studies in Germany.",
-          ],
-        },
-        {
           role: "Junior Network Administrator",
           company: "ALKAN CIT | Addis Ababa, Ethiopia",
           date: "07/2022 – 11/2024",
@@ -146,16 +136,6 @@ export const translations = {
           date: "10/2025 – Heute",
           items: [
             "Absolviert einen Master in Informatik, aufbauend auf Erfahrung in Netzwerktechnik und Cloud-Infrastruktur.",
-          ],
-        },
-        {
-          role: "Vorbereitung auf Masterbewerbung & Umzug",
-          company: "Selbstständig",
-          date: "11/2024 – 10/2025",
-          items: [
-            "Vorbereitung und erfolgreicher Abschluss des IELTS zur Erfüllung der Sprachanforderungen.",
-            "Zusammenstellung von akademischen Zeugnissen, Empfehlungsschreiben und Bewerbungsunterlagen für Masterprogramme.",
-            "Organisation von Visumantrag und Umzugslogistik für den Studienbeginn in Deutschland.",
           ],
         },
         {
