@@ -450,7 +450,7 @@ const App: React.FC = () => {
               </div>
 
               <div className="project-card animate-on-scroll delay-2">
-                <div className="project-number">03</div>
+                <div className="project-number">02</div>
                 <h3>{t.projects.vdas.title}</h3>
                 <p>{t.projects.vdas.desc}</p>
                 <div className="project-tags">
@@ -462,7 +462,7 @@ const App: React.FC = () => {
               </div>
 
               <div className="project-card animate-on-scroll delay-1">
-                <div className="project-number">02</div>
+                <div className="project-number">03</div>
                 <h3>{t.projects.rasta.title}</h3>
                 <p>{t.projects.rasta.desc}</p>
                 <div className="project-tags">
