@@ -9,7 +9,7 @@ export const translations = {
     },
     hero: {
       title: "Mubarek Yeshaw",
-      subtitle: "Cloud Engineer & Network Administrator — crafting secure, scalable infrastructure in Azure & AWS.",
+      subtitle: "IT Security & Networking — building and securing networks: firewalls, VPN, PKI and intrusion detection.",
       available: "Open to Opportunities",
       badges: {
         aws: "AWS Certified",
@@ -22,8 +22,8 @@ export const translations = {
     about: {
       title: "About Me",
       heading: "Overview",
-      text: "I am a passionate Cloud Engineer and Network Administrator currently pursuing my Master's in Computer Science at the University of Passau. With a strong foundation in networking and infrastructure security, I specialize in architecting scalable and secure cloud environments on Azure and AWS.",
-      roleTags: ["Cloud Engineer", "Network Administrator", "Security"],
+      text: "I work in IT security and networking and am pursuing my Master's in Computer Science at the University of Passau, with a focus on IT security. I spent two years as a network administrator, and I now build and test secure networks: segmented firewalls, site-to-site VPNs, private PKI and intrusion detection.",
+      roleTags: ["IT Security", "Networking", "Network Administrator"],
       education: "Education",
       educationList: [
         "M.Sc. Computer Science — University of Passau, Germany (2025 – Present)",
@@ -64,7 +64,7 @@ export const translations = {
     },
     projects: {
       title: "Featured Projects",
-      desc: "Hands-on projects showcasing cloud architecture and AI capabilities.",
+      desc: "Hands-on projects in network security, secure protocols and infrastructure.",
       vdas: {
         title: "VDAS — Violence Detection",
         desc: "Real-time violence detection system using Convolutional Neural Networks and action classification models, built with Python and OpenCV.",
@@ -93,7 +93,7 @@ export const translations = {
     },
     hero: {
       title: "Mubarek Yeshaw",
-      subtitle: "Cloud Engineer & Netzwerkadministrator — Aufbau sicherer, skalierbarer Infrastruktur in Azure & AWS.",
+      subtitle: "IT-Sicherheit & Netzwerke — Aufbau und Absicherung von Netzwerken: Firewalls, VPN, PKI und Intrusion Detection.",
       available: "Offen für Möglichkeiten",
       badges: {
         aws: "AWS Zertifiziert",
@@ -106,8 +106,8 @@ export const translations = {
     about: {
       title: "Über mich",
       heading: "Überblick",
-      text: "Ich bin ein leidenschaftlicher Cloud Engineer und Netzwerkadministrator, der derzeit seinen Master in Informatik an der Universität Passau absolviert. Mit einer soliden Grundlage in Netzwerk- und Infrastruktursicherheit spezialisiere ich mich auf die Architektur skalierbarer und sicherer Cloud-Umgebungen auf Azure und AWS.",
-      roleTags: ["Cloud Engineer", "Netzwerkadministrator", "Sicherheit"],
+      text: "Ich arbeite im Bereich IT-Sicherheit und Netzwerke und studiere im Master Informatik an der Universität Passau mit Schwerpunkt IT-Sicherheit. Ich war zwei Jahre als Netzwerkadministrator tätig und baue und teste heute sichere Netzwerke: segmentierte Firewalls, Site-to-Site-VPNs, eigene PKI und Intrusion Detection.",
+      roleTags: ["IT-Sicherheit", "Netzwerke", "Netzwerkadministrator"],
       education: "Ausbildung",
       educationList: [
         "M.Sc. Informatik — Universität Passau, Deutschland (2025 – Heute)",
@@ -148,7 +148,7 @@ export const translations = {
     },
     projects: {
       title: "Ausgewählte Projekte",
-      desc: "Praxisprojekte, die Cloud-Architektur und KI-Fähigkeiten demonstrieren.",
+      desc: "Praxisprojekte in Netzwerksicherheit, sicheren Protokollen und Infrastruktur.",
       vdas: {
         title: "VDAS — Gewalt-Erkennung",
         desc: "Echtzeit-Gewalterkennungssystem unter Verwendung von CNNs und Aktionsklassifizierungsmodellen, erstellt mit Python und OpenCV.",
