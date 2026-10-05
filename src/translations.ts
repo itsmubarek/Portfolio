@@ -65,6 +65,11 @@ export const translations = {
     projects: {
       title: "Featured Projects",
       desc: "Hands-on projects in network security, secure protocols and infrastructure.",
+      netlab: {
+        title: "Secure Multi-Site Network Lab",
+        desc: "Five-VM, two-site network (LAN, DMZ, WAN) with default-deny iptables firewalls, a site-to-site WireGuard VPN, a private OpenSSL PKI securing an nginx HTTPS server, and Suricata IDS rules with central rsyslog logging. Every step is backed by test evidence in the repo.",
+        link: "View Code",
+      },
       vdas: {
         title: "VDAS — Violence Detection",
         desc: "Real-time violence detection system using Convolutional Neural Networks and action classification models, built with Python and OpenCV.",
@@ -149,6 +154,11 @@ export const translations = {
     projects: {
       title: "Ausgewählte Projekte",
       desc: "Praxisprojekte in Netzwerksicherheit, sicheren Protokollen und Infrastruktur.",
+      netlab: {
+        title: "Secure Multi-Site Network Lab",
+        desc: "Netzwerk mit fünf VMs an zwei Standorten (LAN, DMZ, WAN): iptables-Firewalls mit Default-Deny, Site-to-Site-VPN mit WireGuard, eigene OpenSSL-PKI für einen nginx-HTTPS-Server sowie Suricata-IDS-Regeln mit zentralem rsyslog-Logging. Jeder Schritt ist mit Testnachweisen im Repository belegt.",
+        link: "Code ansehen",
+      },
       vdas: {
         title: "VDAS — Gewalt-Erkennung",
         desc: "Echtzeit-Gewalterkennungssystem unter Verwendung von CNNs und Aktionsklassifizierungsmodellen, erstellt mit Python und OpenCV.",

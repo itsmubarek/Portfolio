@@ -431,6 +431,26 @@ const App: React.FC = () => {
             <div className="projects-grid">
               <div className="project-card animate-on-scroll delay-1">
                 <div className="project-number">01</div>
+                <h3>{t.projects.netlab.title}</h3>
+                <p>{t.projects.netlab.desc}</p>
+                <div className="project-tags">
+                  <span className="project-tag">iptables</span>
+                  <span className="project-tag">WireGuard</span>
+                  <span className="project-tag">OpenSSL PKI</span>
+                  <span className="project-tag">Suricata</span>
+                </div>
+                <a
+                  href="https://github.com/itsmubarek/secure-multisite-network-lab"
+                  target="_blank"
+                  rel="noreferrer"
+                  className="project-link"
+                >
+                  {t.projects.netlab.link} →
+                </a>
+              </div>
+
+              <div className="project-card animate-on-scroll delay-2">
+                <div className="project-number">03</div>
                 <h3>{t.projects.vdas.title}</h3>
                 <p>{t.projects.vdas.desc}</p>
                 <div className="project-tags">
@@ -441,7 +461,7 @@ const App: React.FC = () => {
                 </div>
               </div>
 
-              <div className="project-card animate-on-scroll delay-2">
+              <div className="project-card animate-on-scroll delay-1">
                 <div className="project-number">02</div>
                 <h3>{t.projects.rasta.title}</h3>
                 <p>{t.projects.rasta.desc}</p>
